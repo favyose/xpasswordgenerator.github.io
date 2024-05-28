@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(22, 22, 55);
+}
+
+.heading {
+  width: 50%;
+  height: 50px;
+  display: block;
+  position: absolute;
+  margin: 50px 25%;
+}
+
+.heading h1 {
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-shadow: 0 0 5px rgb(12, 0, 231), 0 0 10px rgb(22, 0, 79),
+    0 0 20px rgb(191, 189, 255), 0 0 30px rgb(11, 145, 56),
+    0 0 40px rgb(167, 83, 18), 0 0 50px rgb(204, 255, 0),
+    0 0 60px rgb(68, 0, 255);
+}
+
+.heading h1 span {
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px rgb(12, 0, 231), 0 0 10px rgb(22, 0, 79),
+    0 0 20px rgb(191, 189, 255), 0 0 30px rgb(11, 145, 56),
+    0 0 40px rgb(167, 83, 18), 0 0 50px rgb(204, 255, 0),
+    0 0 60px rgb(68, 0, 255);
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.584);
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 170px;
+    border-radius: 10%;
+    box-shadow: 0 0 5px rgb(5, 5, 6), 0 0 10px rgb(22, 0, 79),
+    0 0 20px rgb(67, 67, 77), 0 0 30px rgb(0, 11, 127),
+    0 0 40px rgb(160, 91, 41), 0 0 50px rgb(182, 233, 0),
+    0 0 60px rgb(107, 104, 114);
+}
+
+.container p {
+    font-size: 20px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-top: 8px;
+}
+
+.options {
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    line-height: 40px;
+    text-shadow: 0 0 5px rgb(172, 175, 152), 0 0 10px rgb(22, 0, 79);
+}
+
+.container button {
+  border-radius: 10%;
+  padding: 5px;
+  margin-left: 150px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(13, 0, 108);
+}
+
+.container button:hover {
+  box-shadow: 0 0 5px rgb(5, 5, 6), 0 0 10px rgb(22, 0, 79),
+    0 0 20px rgb(46, 46, 199), 0 0 30px rgb(0, 11, 127),
+    0 0 40px rgb(28, 0, 75), 0 0 50px rgb(182, 233, 0),
+    0 0 60px rgb(180, 148, 255);
+}
+
+
+#textBox {
+  width: 300px;
+  height: 50px;
+  border: 5px solid #0a0062;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 30px;
+  box-sizing: border-box;
+  background-color: #c1b4b4;
+  position: absolute;
+  margin-top: 520px;
+  margin-left: 550px;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    width: 700px;
+    max-width: 400px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+  }
+  
+  .heading h1 {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-shadow: 0 0 5px rgb(12, 0, 231), 0 0 10px rgb(22, 0, 79),
+      0 0 20px rgb(191, 189, 255), 0 0 30px rgb(11, 145, 56),
+      0 0 40px rgb(167, 83, 18), 0 0 50px rgb(204, 255, 0),
+      0 0 60px rgb(68, 0, 255);
+      margin-right: 200px;
+  }
+  
+  .heading h1 span {
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(12, 0, 231), 0 0 10px rgb(22, 0, 79),
+      0 0 20px rgb(191, 189, 255), 0 0 30px rgb(11, 145, 56),
+      0 0 40px rgb(167, 83, 18), 0 0 50px rgb(204, 255, 0),
+      0 0 60px rgb(68, 0, 255);
+  }
+  
+  .container {
+      width: 300px;
+      background-color: rgba(255, 255, 255, 0.584);
+      position: absolute;
+      margin-left: 50px;
+      margin-top: 170px;
+      border-radius: 10%;
+      box-shadow: 0 0 5px rgb(5, 5, 6), 0 0 10px rgb(22, 0, 79),
+      0 0 20px rgb(67, 67, 77), 0 0 30px rgb(0, 11, 127),
+      0 0 40px rgb(160, 91, 41), 0 0 50px rgb(182, 233, 0),
+      0 0 60px rgb(107, 104, 114);
+  }
+  
+  .container p {
+      font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 8px;
+  }
+  
+  .options {
+      font-size: 20px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-top: 20px;
+      margin-left: 50px;
+      line-height: 40px;
+      text-shadow: 0 0 5px rgb(172, 175, 152), 0 0 10px rgb(22, 0, 79);
+  }
+  
+  .container button {
+    border-radius: 10%;
+    padding: 5px;
+    margin-left: 150px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 0, 108);
+  }
+  
+  .container button:hover {
+    box-shadow: 0 0 5px rgb(5, 5, 6), 0 0 10px rgb(22, 0, 79),
+      0 0 20px rgb(46, 46, 199), 0 0 30px rgb(0, 11, 127),
+      0 0 40px rgb(28, 0, 75), 0 0 50px rgb(182, 233, 0),
+      0 0 60px rgb(180, 148, 255);
+  }
+  
+  
+  #textBox {
+    width: 300px;
+    height: 50px;
+    border: 5px solid #0a0062;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 30px;
+    box-sizing: border-box;
+    background-color: #c1b4b4;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 45px;
+    text-align: center;
+  }
+  
+  
+}

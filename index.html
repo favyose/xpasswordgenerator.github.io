@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-password-Generator</title>
+</head>
+<body>
+    <div class="heading">
+        <h1><span>X</span> Password - Generator</h1>
+    </div>
+
+    <div class="container">
+        <p>Select password character types:</p>
+        <div class="options">
+            UpperCase <input type="checkbox" id="uppercase" checked><br>
+            LowerCase <input type="checkbox" id="lowercase" checked><br>
+            Numeric <input type="checkbox" id="numeric" checked><br>
+            Special Characters <input type="checkbox" id="special" checked><br>
+            <span class="checkmark"></span>
+        </div>
+        <button onclick="displayRandomCharacters()">GENERATE</button>
+    </div>
+    <div id="textBox" class="textbox"></div>
+</body>
+<script src="./script/main.js"></script>
+</html>
